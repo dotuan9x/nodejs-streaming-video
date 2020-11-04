@@ -1,0 +1,36 @@
+{
+  "name": "backend-playground",
+  "version": "0.0.0",
+  "description": "streaming playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon public/index.js"
+  },
+  "author": "streaming",
+  "license": "MIT",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2",
+    "nodemon": "^2.0.5",
+    "puppeteer": "^3.3.0"
+  },
+  "_moduleAliases": {
+    "@worker": "worker",
+    "@route": "route",
+    "@module": "module",
+    "@library": "library",
+    "@asset": "asset"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonJS",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "paths": {
+            "@worker": ["route/index.js"],
+            "@route": ["route/index.js"],
+            "@route/*": ["route/*"],
+            "@route/**": ["route/**"],
+            "@module/*": ["module/*"],
+            "@library/*": ["library/*"],
+            "@asset/*": ["asset/*"],
+            "@asset/**": ["asset/**"]
+        }
+    },
+    "exclude": ["node_modules"]
+}
