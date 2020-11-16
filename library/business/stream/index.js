@@ -2,7 +2,7 @@ const get = async params => {
     try {
         const path = require('path');
         const fs = require('fs');
-        const assetPath = path.resolve('asset/videoplayback.mp4');
+        const assetPath = path.resolve('asset/video.mp4');
         const stat = fs.statSync(assetPath);
         const fileSize = stat.size;
 
