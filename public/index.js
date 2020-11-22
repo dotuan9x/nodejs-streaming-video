@@ -12,7 +12,7 @@ const port = process.env.PORT_NODE || process.env.PORT || 8000;
 app.use(cors());
 
 app.use('/api', require('@route'));
-app.use('/static', express.static(path.join(__dirname, '/../asset')));
+app.use('/static', express.static(path.join(__dirname, '/../static')));
 
 app.listen(port, () => {
     console.log('We are live on ' + port);
